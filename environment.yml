@@ -1,0 +1,13 @@
+name: smart_home_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - flask
+  - pip:
+      - requests
+      - unittest2  # If using unittest extensions
